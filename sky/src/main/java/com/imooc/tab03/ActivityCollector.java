@@ -19,6 +19,7 @@ public class ActivityCollector {
     public static void removeActivity(Activity activity){
         sActivityList.remove(activity);
     }
+
 //    public static void removeActivity(Activity activity){
 //        sActivityList.remove(activity);
 //    }
