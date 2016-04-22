@@ -12,6 +12,7 @@ public class ActivityCollector {
     public static List<Activity> sActivityList=new ArrayList<Activity>();
     public static ArrayList<Activity> sSignUpActivityList=new ArrayList<Activity>();
 
+
     public static void addActivity(Activity activity){
         sActivityList.add(activity);
     }
@@ -23,6 +24,8 @@ public class ActivityCollector {
 //    public static void removeActivity(Activity activity){
 //        sActivityList.remove(activity);
 //    }
+
+
 
     public static void finishAll(){
         for (Activity activity:sActivityList){
