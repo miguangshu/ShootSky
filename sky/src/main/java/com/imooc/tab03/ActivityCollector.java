@@ -13,6 +13,7 @@ public class ActivityCollector {
     public static ArrayList<Activity> sSignUpActivityList=new ArrayList<Activity>();
 
 
+
     public static void addActivity(Activity activity){
         sActivityList.add(activity);
     }
