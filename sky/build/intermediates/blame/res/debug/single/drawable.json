@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_bar_gray.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable\\textview_bar_gray.xml"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_special_disease_circle.xml",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable\\bg_special_disease_circle.xml"
     },

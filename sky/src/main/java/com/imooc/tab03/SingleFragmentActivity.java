@@ -1,7 +1,9 @@
 package com.imooc.tab03;
 
+import android.annotation.TargetApi;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.os.Build;
 import android.os.Bundle;
 
 public abstract class SingleFragmentActivity extends BaseActivity {
@@ -12,6 +14,7 @@ public abstract class SingleFragmentActivity extends BaseActivity {
         return R.layout.activity_fragment;
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +26,8 @@ public abstract class SingleFragmentActivity extends BaseActivity {
         if (fragment == null) {
             fragment = createFragment();
             manager.beginTransaction()
-                .add(R.id.fragmentContainer, fragment)
-                .commit();
+                    .add(R.id.fragmentContainer, fragment)
+                    .commit();
         }
 
     }

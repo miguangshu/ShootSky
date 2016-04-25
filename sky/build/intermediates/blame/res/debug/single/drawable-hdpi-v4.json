@@ -24,12 +24,12 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\background.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\takephotobutton.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\takephotobutton.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background2.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\background2.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\takephotobutton.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\takephotobutton.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capture_btn.png",
@@ -72,6 +72,10 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_address_normal.png"
     },
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_popwindow.9.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\bg_popwindow.9.png"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_bg.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\camera_bg.png"
     },
@@ -100,6 +104,10 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\button_circle_ok.png"
     },
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_welcome.jpg",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\app_welcome.jpg"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_circle_next2.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\button_circle_next2.png"
     },
@@ -108,12 +116,12 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\add_white.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_compass_gray.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_compass_gray.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_weixin_pressed.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_weixin_pressed.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_compass_gray.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_compass_gray.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_shot_blue.png",
@@ -152,12 +160,12 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_settings_normal.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_settings_normal.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_shot_blue.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_shot_blue.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_settings_normal.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_settings_normal.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bg2.png",
@@ -188,24 +196,24 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\mask_skyphoto.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_address_pressed.png",
-        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_address_pressed.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_crop_width.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\camera_crop_width.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_address_pressed.png",
+        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_address_pressed.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_autocrop.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\indicator_autocrop.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camear_white.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\camear_white.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_circle_cancle.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\button_circle_cancle.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camear_white.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\camear_white.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_autocrop.png",
@@ -216,12 +224,12 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_shot_gray.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\background.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mask_skyphoto.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\mask_skyphoto.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\background.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camear_white.png",
@@ -244,16 +252,16 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_weixin_normal.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capture_btn.png",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\capture_btn.png"
+        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\take_photo.png",
+        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\take_photo.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_find_frd_pressed.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_find_frd_pressed.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\take_photo.png",
-        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\take_photo.png"
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capture_btn.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\capture_btn.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera.png",
@@ -272,12 +280,12 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\button_circle_next2.png"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bg2.png",
-        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_bg2.png"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_find_frd_pressed.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_find_frd_pressed.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bg2.png",
+        "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_bg2.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bottom_bar.9.png",

@@ -10,14 +10,14 @@ public class AppConfig {
     public static final String APP_FOLDER = MyFileSystem.sSDRootPath + "LaoHanSocket"+ File.separator;
     public static String NEW_FILE_PATH = "";
 
-    public static double NOW_LONGITUDE = 0;
-    public static double NOW_LATITUDE = 0;
+    public static String NOW_LONGITUDE = "";
+    public static String NOW_LATITUDE = "";
 
 
     /* 服务器地址 */
 //	public final static String SERVER_HOST_IP = "10.103.242.79";
 //    public final static String SERVER_HOST_IP = "192.168.2.1";
-    public final static String SERVER_HOST_IP = "10.103.242.79";
+    public final static String SERVER_HOST_IP = "222.128.13.159";
 
     /* 服务器端口 */
     public final static int SERVER_HOST_PORT = 9400;
