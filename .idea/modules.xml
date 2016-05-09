@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ShootSky.iml" filepath="$PROJECT_DIR$/ShootSky.iml" />
       <module fileurl="file://$PROJECT_DIR$/sky/sky.iml" filepath="$PROJECT_DIR$/sky/sky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turntest/turntest.iml" filepath="$PROJECT_DIR$/turntest/turntest.iml" />
     </modules>
   </component>
 </project>

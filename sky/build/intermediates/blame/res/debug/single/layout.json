@@ -4,10 +4,6 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\fragment_camera_mrliu_two_good.xml"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab04.xml",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\tab04.xml"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -22,10 +18,6 @@
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab04.xml",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\layout\\tab04.xml"
-    },
-    {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab03.xml",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\tab03.xml"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\top.xml",
@@ -54,6 +46,14 @@
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab01.xml",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\tab01.xml"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\common_dialog_generic.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\common_dialog_generic.xml"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\common_flipping_loading_diloag.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\common_flipping_loading_diloag.xml"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab03.xml",
@@ -88,16 +88,16 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\top.xml"
     },
     {
-        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\tab02.xml",
-        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\tab02.xml"
-    },
-    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\camera_layout.xml",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\layout\\camera_layout.xml"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\bottom.xml",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\bottom.xml"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\common_toast.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\layout\\common_toast.xml"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\layout\\bottom.xml",

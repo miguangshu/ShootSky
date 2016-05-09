@@ -295,61 +295,77 @@ public final class R {
     }
     public static final class drawable {
         public static final int add_white=0x7f020000;
-        public static final int app_welcome=0x7f020001;
+        public static final int app_welcome2=0x7f020001;
         public static final int background=0x7f020002;
         public static final int background2=0x7f020003;
         public static final int bg_popwindow=0x7f020004;
         public static final int bg_special_disease_circle=0x7f020005;
         public static final int bottom_bar=0x7f020006;
-        public static final int button_circle_cancel2=0x7f020007;
-        public static final int button_circle_cancle=0x7f020008;
-        public static final int button_circle_next2=0x7f020009;
-        public static final int button_circle_ok=0x7f02000a;
-        public static final int camear_white=0x7f02000b;
-        public static final int camera=0x7f02000c;
-        public static final int camera_bg=0x7f02000d;
-        public static final int camera_crop_height=0x7f02000e;
-        public static final int camera_crop_width=0x7f02000f;
-        public static final int capture_btn=0x7f020010;
-        public static final int ic_launcher=0x7f020011;
-        public static final int indicator_autocrop=0x7f020012;
-        public static final int main_menu_bar=0x7f020013;
-        public static final int mask_skyphoto=0x7f020014;
-        public static final int one=0x7f020015;
-        public static final int one_d=0x7f020016;
-        public static final int pic_index_background=0x7f020017;
-        public static final int screen_bg=0x7f020018;
-        public static final int tab_address_normal=0x7f020019;
-        public static final int tab_address_pressed=0x7f02001a;
-        public static final int tab_bg2=0x7f02001b;
-        public static final int tab_compass_blue=0x7f02001c;
-        public static final int tab_compass_gray=0x7f02001d;
-        public static final int tab_find_frd_normal=0x7f02001e;
-        public static final int tab_find_frd_pressed=0x7f02001f;
-        public static final int tab_person_blue=0x7f020020;
-        public static final int tab_person_gray=0x7f020021;
-        public static final int tab_settings_normal=0x7f020022;
-        public static final int tab_settings_pressed=0x7f020023;
-        public static final int tab_shot_blue=0x7f020024;
-        public static final int tab_shot_gray=0x7f020025;
-        public static final int tab_weixin_normal=0x7f020026;
-        public static final int tab_weixin_pressed=0x7f020027;
-        public static final int take_photo=0x7f020028;
-        public static final int takephotobutton=0x7f020029;
-        public static final int textview_bar_gray=0x7f02002a;
-        public static final int welcome=0x7f02002b;
+        public static final int btn_big_normal_disable=0x7f020007;
+        public static final int btn_big_normal_normal=0x7f020008;
+        public static final int btn_big_normal_press=0x7f020009;
+        public static final int btn_bottombar_disable=0x7f02000a;
+        public static final int btn_default=0x7f02000b;
+        public static final int button_circle_cancel2=0x7f02000c;
+        public static final int button_circle_cancle=0x7f02000d;
+        public static final int button_circle_next2=0x7f02000e;
+        public static final int button_circle_ok=0x7f02000f;
+        public static final int camear_white=0x7f020010;
+        public static final int camera=0x7f020011;
+        public static final int camera_bg=0x7f020012;
+        public static final int camera_crop_height=0x7f020013;
+        public static final int camera_crop_width=0x7f020014;
+        public static final int capture_btn=0x7f020015;
+        public static final int ic_launcher=0x7f020016;
+        public static final int ic_logo_blue=0x7f020017;
+        public static final int indicator_autocrop=0x7f020018;
+        public static final int main_menu_bar=0x7f020019;
+        public static final int mask_skyphoto=0x7f02001a;
+        public static final int one=0x7f02001b;
+        public static final int one_d=0x7f02001c;
+        public static final int pic_index_background=0x7f02001d;
+        public static final int screen_bg=0x7f02001e;
+        public static final int tab_address_normal=0x7f02001f;
+        public static final int tab_address_pressed=0x7f020020;
+        public static final int tab_bg2=0x7f020021;
+        public static final int tab_compass_blue=0x7f020022;
+        public static final int tab_compass_gray=0x7f020023;
+        public static final int tab_find_frd_normal=0x7f020024;
+        public static final int tab_find_frd_pressed=0x7f020025;
+        public static final int tab_person_blue=0x7f020026;
+        public static final int tab_person_gray=0x7f020027;
+        public static final int tab_settings_normal=0x7f020028;
+        public static final int tab_settings_pressed=0x7f020029;
+        public static final int tab_shot_blue=0x7f02002a;
+        public static final int tab_shot_gray=0x7f02002b;
+        public static final int tab_weixin_normal=0x7f02002c;
+        public static final int tab_weixin_pressed=0x7f02002d;
+        public static final int take_photo=0x7f02002e;
+        public static final int takephotobutton=0x7f02002f;
+        public static final int textview_bar_gray=0x7f020030;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001b;
-        public static final int app_start_view=0x7f090003;
-        public static final int bg_frame=0x7f090014;
-        public static final int btn_photo=0x7f090019;
-        public static final int button_cancle=0x7f090017;
-        public static final int button_ok=0x7f090018;
-        public static final int button_takephoto=0x7f090016;
+        public static final int action_settings=0x7f090029;
+        public static final int app_start_view=0x7f090002;
+        public static final int bg_frame=0x7f090022;
+        public static final int btn_photo=0x7f090027;
+        public static final int button_cancle=0x7f090025;
+        public static final int button_ok=0x7f090026;
+        public static final int button_takephoto=0x7f090024;
         public static final int capture_btn=0x7f09000e;
-        public static final int count_textView=0x7f090015;
-        public static final int discard=0x7f090011;
+        public static final int count_textView=0x7f090023;
+        public static final int dialog_generic_btn_button1=0x7f090017;
+        public static final int dialog_generic_btn_button2=0x7f090018;
+        public static final int dialog_generic_btn_button3=0x7f090019;
+        public static final int dialog_generic_htv_message=0x7f090015;
+        public static final int dialog_generic_htv_title=0x7f090012;
+        public static final int dialog_generic_layout_bottom=0x7f090016;
+        public static final int dialog_generic_layout_content=0x7f090014;
+        public static final int dialog_generic_layout_root=0x7f09000f;
+        public static final int dialog_generic_layout_title=0x7f090011;
+        public static final int dialog_generic_layout_top=0x7f090010;
+        public static final int dialog_generic_view_titleline=0x7f090013;
+        public static final int discard=0x7f09001f;
         public static final int fragmentContainer=0x7f090000;
         public static final int id_tab_find=0x7f090007;
         public static final int id_tab_find_img=0x7f090008;
@@ -360,14 +376,17 @@ public final class R {
         public static final int id_tab_shot=0x7f090004;
         public static final int id_tab_shot_img=0x7f090005;
         public static final int id_tab_shot_text=0x7f090006;
-        public static final int id_upload_pic=0x7f090002;
-        public static final int id_viewpager=0x7f090001;
-        public static final int image=0x7f09000f;
-        public static final int imageView=0x7f09001a;
+        public static final int id_upload_pic=0x7f090001;
+        public static final int image=0x7f09001d;
+        public static final int imageView=0x7f090028;
+        public static final int loadingdialog_fiv_icon=0x7f09001a;
+        public static final int loadingdialog_htv_text=0x7f09001b;
         public static final int preview_layout=0x7f09000d;
-        public static final int progressBar1=0x7f090012;
-        public static final int save=0x7f090010;
-        public static final int surfaceview_camera=0x7f090013;
+        public static final int progressBar1=0x7f090020;
+        public static final int save=0x7f09001e;
+        public static final int surfaceview_camera=0x7f090021;
+        public static final int toast_text=0x7f09001c;
+        public static final int welcome_text=0x7f090003;
     }
     public static final class layout {
         public static final int activity_fragment=0x7f030000;
@@ -376,13 +395,13 @@ public final class R {
         public static final int app_start=0x7f030003;
         public static final int bottom=0x7f030004;
         public static final int camera_layout=0x7f030005;
-        public static final int cropimage=0x7f030006;
-        public static final int dialog_image_loading=0x7f030007;
-        public static final int fragment_camera_mrliu_two_good=0x7f030008;
-        public static final int tab01=0x7f030009;
-        public static final int tab02=0x7f03000a;
-        public static final int tab03=0x7f03000b;
-        public static final int tab04=0x7f03000c;
+        public static final int common_dialog_generic=0x7f030006;
+        public static final int common_flipping_loading_diloag=0x7f030007;
+        public static final int common_toast=0x7f030008;
+        public static final int cropimage=0x7f030009;
+        public static final int dialog_image_loading=0x7f03000a;
+        public static final int fragment_camera_mrliu_two_good=0x7f03000b;
+        public static final int tab01=0x7f03000c;
         public static final int top=0x7f03000d;
     }
     public static final class menu {
@@ -391,7 +410,9 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f070000;
         public static final int app_name=0x7f070001;
-        public static final int hello_world=0x7f070002;
+        public static final int disconnectNetwork=0x7f070002;
+        public static final int hello_world=0x7f070003;
+        public static final int noNetwork=0x7f070004;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -403,9 +424,10 @@ public final class R {
         
          */
         public static final int AppBaseTheme=0x7f050000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f050001;
-        public static final int ImageloadingDialogStyle=0x7f050002;
+        public static final int BaseDialog=0x7f050002;
+        public static final int ImageloadingDialogStyle=0x7f050003;
+        public static final int Style_Dialog_Button=0x7f050004;
+        public static final int Theme_Light_FullScreenDialogAct=0x7f050005;
     }
 }

@@ -44,6 +44,10 @@
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\bottom_bar.9.png"
     },
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_big_normal_normal.9.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\btn_big_normal_normal.9.png"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_settings_pressed.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_settings_pressed.png"
     },
@@ -148,6 +152,10 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_person_blue.png"
     },
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bottombar_disable.9.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\btn_bottombar_disable.9.png"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_weixin_normal.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_weixin_normal.png"
     },
@@ -174,6 +182,14 @@
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_settings_pressed.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_settings_pressed.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_logo_blue.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\ic_logo_blue.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_welcome2.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\app_welcome2.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_circle_cancel2.png",
@@ -206,6 +222,10 @@
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_autocrop.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\indicator_autocrop.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_circle_cancle.png",
@@ -292,6 +312,14 @@
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\bottom_bar.9.png"
     },
     {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_big_normal_press.9.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\btn_big_normal_press.9.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_big_normal_disable.9.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\btn_big_normal_disable.9.png"
+    },
+    {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_compass_gray.png",
         "source": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\src\\main\\res\\drawable-hdpi\\tab_compass_gray.png"
     },
@@ -310,6 +338,10 @@
     {
         "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_compass_blue.png",
         "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\drawable-hdpi\\tab_compass_blue.png"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
     },
     {
         "merged": "E:\\part_time_job\\05_photo\\LaoHanSocket\\LaoHanSocket\\sky\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\takephotobutton.png",

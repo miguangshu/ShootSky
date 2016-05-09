@@ -2,6 +2,8 @@ package com.imooc.tab03;
 
 import android.app.Activity;
 
+import com.imooc.tab03.util.DebugHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +42,7 @@ public class ActivityCollector {
     public static void finishAllSignup(){
 
         for (Activity activity:sSignUpActivityList){
-            DebugHelper.logD(activity.toString()+"死了");
+            DebugHelper.logD(activity.toString() + "死了");
             if(!activity.isFinishing()){
                 activity.finish();
             }

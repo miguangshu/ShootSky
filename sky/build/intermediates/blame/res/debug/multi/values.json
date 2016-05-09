@@ -847,7 +847,14 @@
                     "endOffset": 2339
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 45,
+                        "endOffset": 198
+                    }
                 }
             },
             {
@@ -859,7 +866,14 @@
                     "endOffset": 2386
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
                 }
             },
             {
@@ -871,7 +885,14 @@
                     "endOffset": 2437
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 50,
+                        "endOffset": 151
+                    }
                 }
             },
             {
@@ -4740,7 +4761,14 @@
                     "endOffset": 12355
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 45,
+                        "endOffset": 292
+                    }
                 }
             },
             {
@@ -4752,7 +4780,14 @@
                     "endOffset": 12401
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 45,
+                        "endOffset": 245
+                    }
                 }
             },
             {
@@ -5239,7 +5274,14 @@
                     "endOffset": 13665
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\dimens.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -5251,7 +5293,14 @@
                     "endOffset": 13721
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\dimens.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -5263,7 +5312,14 @@
                     "endOffset": 13774
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
                 }
             },
             {
@@ -5275,7 +5331,14 @@
                     "endOffset": 13815
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 40,
+                        "endOffset": 95
+                    }
                 }
             },
             {
@@ -5283,50 +5346,180 @@
                     "startLine": 283,
                     "startColumn": 4,
                     "startOffset": 13820,
-                    "endColumn": 52,
-                    "endOffset": 13868
+                    "endColumn": 54,
+                    "endOffset": 13870
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 54,
+                        "endOffset": 307
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 13873,
-                    "endLine": 290,
-                    "endColumn": 12,
-                    "endOffset": 14159
+                    "startOffset": 13875,
+                    "endColumn": 52,
+                    "endOffset": 13923
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 52,
+                        "endOffset": 203
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 14164,
-                    "endLine": 293,
-                    "endColumn": 12,
-                    "endOffset": 14319
+                    "startOffset": 13928,
+                    "endColumn": 46,
+                    "endOffset": 13970
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 46,
+                        "endOffset": 251
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 294,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 14324,
-                    "endLine": 304,
+                    "startOffset": 13975,
+                    "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 14953
+                    "endOffset": 14261
                 },
                 "from": {
-                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml"
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 14266,
+                    "endLine": 295,
+                    "endColumn": 12,
+                    "endOffset": 14379
+                },
+                "from": {
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 14384,
+                    "endColumn": 67,
+                    "endOffset": 14447
+                },
+                "from": {
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1706,
+                        "endColumn": 68,
+                        "endOffset": 1770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 14452,
+                    "endLine": 307,
+                    "endColumn": 12,
+                    "endOffset": 15081
+                },
+                "from": {
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 646,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 1285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 15086,
+                    "endLine": 315,
+                    "endColumn": 12,
+                    "endOffset": 15488
+                },
+                "from": {
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 1700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 15493,
+                    "endLine": 326,
+                    "endColumn": 12,
+                    "endOffset": 16151
+                },
+                "from": {
+                    "file": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1778,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2446
+                    }
                 }
             }
         ]

@@ -6,12 +6,24 @@ import android.app.FragmentManager;
 import android.os.Build;
 import android.os.Bundle;
 
+import com.imooc.tab03.base.BaseActivity;
+
 public abstract class SingleFragmentActivity extends BaseActivity {
 
     protected abstract Fragment createFragment();
 
     protected int getLayoutResId() {
         return R.layout.activity_fragment;
+    }
+
+    @Override
+    protected void initViews() {
+
+    }
+
+    @Override
+    protected void initEvents() {
+
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
@@ -31,4 +43,5 @@ public abstract class SingleFragmentActivity extends BaseActivity {
         }
 
     }
+
 }

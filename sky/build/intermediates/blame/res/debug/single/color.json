@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "E:\\part_time_job\\05_photo\\ShootSky\\sky\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
+    }
+]

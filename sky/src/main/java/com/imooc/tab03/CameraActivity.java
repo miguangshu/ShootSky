@@ -3,33 +3,39 @@ package com.imooc.tab03;
 import android.annotation.TargetApi;
 import android.app.Dialog;
 import android.app.Fragment;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.imooc.tab03.dialog.ImageLoadingDialog;
 import com.imooc.tab03.network.FdfTransfer;
 import com.imooc.tab03.network.FileDataFrame;
 import com.imooc.tab03.util.BasicDataTypeTransfer;
+import com.imooc.tab03.util.NetUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.net.SocketAddress;
+import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.TimeoutException;
 
-public class CameraActivity extends SingleFragmentActivity implements CameraFragmentMrliuTwoGood.UploadPictureInterface{
+public class CameraActivity extends SingleFragmentActivity implements CameraFragment.UploadPictureInterface{
     private static String TAG = "CameraActivity";
 
     private FdfTransfer transfer = FdfTransfer.getInstance();
@@ -38,16 +44,12 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
     private InputStream is = null;
 
     private Handler handler = null;
-    private ProgressBar progressBar;
-    private ImageLoadingDialog dialog = null;
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-         dialog = new ImageLoadingDialog(this);
-
         super.onCreate(savedInstanceState);
+
 
         handler = new Handler(){
             @Override
@@ -70,13 +72,23 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
     }
 
     @Override
+    protected void initViews() {
+
+    }
+
+    @Override
+    protected void initEvents() {
+
+    }
+
+    @Override
     protected Fragment createFragment() {
-        return new CameraFragmentMrliuTwoGood();
+        return new CameraFragment();
     }
 
     private void initClientSocket() {
         Log.d(TAG, "初始化");
-        dialog.show();
+        showLoadingDialog("正在上传图片");
         new Thread() {
             @Override
             public synchronized void run() {
@@ -106,7 +118,7 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
                     msg.what = -1;
                     Log.e(TAG,e.getMessage());
                 }finally {
-                    dialog.dismiss();
+                    dismissLoadingDialog();
                     handler.sendMessage(msg);
                     try {
                         if(os!=null){
@@ -160,8 +172,71 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
     @Override
     public void uploadPicture(String filePath){
         AppConfig.NEW_FILE_PATH = filePath;
-        this.progressBar = (ProgressBar)progressBar;
-        initClientSocket();
-        Log.d(TAG,"上传图片");
+//        initClientSocket();
+        if(!NetUtils.isNetworkConnected(this)){
+            showCustomToast(R.string.noNetwork);
+            return;
+        }
+        ConcurrentHashMap hashMap = new ConcurrentHashMap();
+        putAsyncTask(new UploadImageTask());
+        Log.i(TAG, "上传图片");
+    }
+    /**
+     * 加载视频信息，按照createAt倒序排列
+     * @author miguangshu
+     *
+     */
+    private class UploadImageTask extends AsyncTask<Void, Void, Object> {
+        @Override
+        protected void onPreExecute() {
+            showLoadingDialog("正在上传图片");
+        }
+
+        @Override
+        protected Object doInBackground(Void... params) {
+            String result = "";
+            try {
+                /* 连接服务器 */
+                Log.d("新线程", "刚进入新线程");
+                socket = new Socket();
+                SocketAddress address = new InetSocketAddress(AppConfig.SERVER_HOST_IP, AppConfig.SERVER_HOST_PORT);
+                socket.connect(address, 10000);
+                /* 获取输出流 */
+                List<File> filesToBeUpload = new ArrayList<File>();
+                filesToBeUpload.add(new File(AppConfig.NEW_FILE_PATH));
+                Log.d(TAG,AppConfig.NEW_FILE_PATH);
+                FileDataFrame fdf = new FileDataFrame(0.8, filesToBeUpload);
+                sendContent(socket, fdf);
+                result = getResult(socket);
+            } catch (Exception e){
+                e.printStackTrace();
+                Log.e(TAG,e.getMessage()+e.getMessage());
+                result = "服务器连接异常";
+            }finally {
+                try {
+                    if(os!=null){
+                        os.close();
+                    }
+                    if(is!=null){
+                        is.close();
+                    }
+                    if(socket!=null){
+                        socket.close();
+                    }
+                } catch (IOException e) {
+                    Log.e(TAG,e.getMessage());
+                }
+            }
+            return result;
+        }
+
+        @Override
+        protected void onPostExecute(Object o) {
+            dismissLoadingDialog();
+            Dialog dialog = new Dialog(CameraActivity.this);
+            dialog.setTitle("当前pm2.5含量为:"+o);
+            dialog.show();
+            super.onPostExecute(o);
+        }
     }
 }

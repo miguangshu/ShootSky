@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\part_time_job\05_photo\ShootSky\sky\src\main\assets"/></dataSet><dataSet config="debug"><source path="E:\part_time_job\05_photo\ShootSky\sky\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\part_time_job\05_photo\ShootSky\sky\src\main\assets"><file name="ttf.ttf" path="E:\part_time_job\05_photo\ShootSky\sky\src\main\assets\ttf.ttf"/><file name="fonts/HandmadeTypewriter.ttf" path="E:\part_time_job\05_photo\ShootSky\sky\src\main\assets\fonts\HandmadeTypewriter.ttf"/></source></dataSet><dataSet config="debug"><source path="E:\part_time_job\05_photo\ShootSky\sky\src\debug\assets"/></dataSet></merger>

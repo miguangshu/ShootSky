@@ -30,14 +30,6 @@
                 android:layout_height="60dp"
                 android:id="@+id/imageView"
                 android:src="@drawable/camera"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:layout_marginTop="5dp"
-                android:textColor="#ffffff"
-                android:gravity="center"
-                android:text="拍照" />
         </LinearLayout>
 
     </RelativeLayout>
