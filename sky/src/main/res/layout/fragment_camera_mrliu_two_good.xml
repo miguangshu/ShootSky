@@ -76,25 +76,46 @@
             android:layout_centerInParent="true"
             android:background="@drawable/take_photo"
              />
-
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:background="@drawable/button_circle_ok"/>
         <Button
             android:id="@+id/button_cancle"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="45dp"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
-            android:background="@drawable/button_circle_cancel2"/>
-
-        <Button
-            android:id="@+id/button_ok"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitXY"
+            android:alpha="0.5"
+            android:background="@drawable/close2"/>
+        <TextView
+            android:id="@+id/button_chongpai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:text="重拍"
+            android:visibility="invisible"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+        <!--<Button
+            android:id="@+id/button_chongpai"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
-            android:layout_marginRight="45dp"
-            android:background="@drawable/button_circle_ok"
-            android:scaleType="fitXY"/>
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"
+            android:alpha="0.5"
+            android:background="@drawable/close3"
+            android:scaleType="fitXY"/>-->
     </RelativeLayout>
-
 </FrameLayout>

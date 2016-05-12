@@ -7,8 +7,34 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         >
+        <ImageView
+            android:id="@+id/bulb"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/bulb2"/>
+        <ImageView
+            android:id="@+id/wave1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave2"/>
+        <ImageView
+            android:id="@+id/wave2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave2"
+            />
+        <ImageView
+            android:id="@+id/wave3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave2"
+            />
         <Button
             android:id="@+id/btn_photo"
             android:layout_width="200dp"
@@ -26,18 +52,10 @@
             android:gravity="center"
             android:layout_margin="5dp" >
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:id="@+id/imageView"
                 android:src="@drawable/camera"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:layout_marginTop="5dp"
-                android:textColor="#ffffff"
-                android:gravity="center"
-                android:text="拍照" />
         </LinearLayout>
 
     </RelativeLayout>

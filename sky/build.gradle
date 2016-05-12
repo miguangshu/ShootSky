@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.+'
     compile files('libs/BaiduLBS_Android.jar')
+    compile 'com.android.support:support-v4:18.+'
 }

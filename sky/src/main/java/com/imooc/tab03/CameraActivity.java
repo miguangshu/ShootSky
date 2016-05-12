@@ -177,7 +177,6 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
             showCustomToast(R.string.noNetwork);
             return;
         }
-        ConcurrentHashMap hashMap = new ConcurrentHashMap();
         putAsyncTask(new UploadImageTask());
         Log.i(TAG, "上传图片");
     }
@@ -234,7 +233,7 @@ public class CameraActivity extends SingleFragmentActivity implements CameraFrag
         protected void onPostExecute(Object o) {
             dismissLoadingDialog();
             Dialog dialog = new Dialog(CameraActivity.this);
-            dialog.setTitle("当前pm2.5含量为:"+o);
+            dialog.setTitle("当前pm2.5值为:"+o);
             dialog.show();
             super.onPostExecute(o);
         }

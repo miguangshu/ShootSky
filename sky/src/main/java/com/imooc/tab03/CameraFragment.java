@@ -50,26 +50,20 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
     private View mBgFrame;
     //    private ImageView mCountImageView;
     private TextView mCountText;
-    private Button mPhotoButton;
-    private Button mCancleButton;
-    private Button mOKButton;
-
-    private boolean mPhotoTaked;
+    private Button mPhotoButton;//拍照按鈕
+    private Button mCancleButton;//退出按鈕
+    private Button mOKButton;//上傳圖片按鈕
+    private TextView mChongpaiButton;//重拍按鈕
+    private boolean mPhotoTaked;//是否拍照
     private String mPhotoFilePath = new String();
-
     private Camera mCamera;
-
-
-
     private Camera.PictureCallback mJpegCallBack = new Camera.PictureCallback() {
-        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
         public void onPictureTaken(byte[] data, Camera camera) {
             Date photoDate = new Date();
             String shortName = new SimpleDateFormat("yyyyMMddHHmmss").format(photoDate) +"_"+AppConfig.NOW_LONGITUDE +"_"+AppConfig.NOW_LATITUDE+ ".jpeg";
             mPhotoFilePath = AppConfig.APP_FOLDER + shortName;
             String photoTime=new SimpleDateFormat("HH:mm:ss").format(photoDate);
             FileOutputStream fos = null;
-//            File pictureFile = new File(mPhotoPathArray[mPhotoCount]);
             File pictureFile = FileUtils.createFileSuccessful(getActivity(), mPhotoFilePath);
 
             /*以下三行为侯哥的代码*/
@@ -99,9 +93,6 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
         }
 
     };
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,12 +102,21 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
     private void initView(View v){
         mBgFrame = v.findViewById(R.id.bg_frame);
         mSurfaceView = (SurfaceView) v.findViewById(R.id.surfaceview_camera);
-
+        mPhotoButton = (Button) v.findViewById(R.id.button_takephoto);
+        mChongpaiButton = (TextView) v.findViewById(R.id.button_chongpai);
+        mOKButton = (Button) v.findViewById(R.id.button_ok);
+        mCancleButton = (Button) v.findViewById(R.id.button_cancle);
+        mCountText = (TextView) v.findViewById(R.id.count_textView);
+        mPhotoButton.setVisibility(View.VISIBLE);
+        mCancleButton.setVisibility(View.VISIBLE);
+        mOKButton.setVisibility(View.INVISIBLE);
+        mChongpaiButton.setVisibility(View.INVISIBLE);
     }
     private void initEvent(){
         SurfaceHolder holder = mSurfaceView.getHolder();
         holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
         holder.addCallback(new SurfaceHolder.Callback() {
+            @Override
             public void surfaceCreated(SurfaceHolder holder) {
                 try {
                     if (mCamera != null) {
@@ -126,8 +126,7 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
                     Log.e(TAG, "设置预览失败", exception);
                 }
             }
-
-            @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+            @Override
             public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
                 if (mCamera == null) {
                     return;
@@ -171,15 +170,11 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
                 Size pictureSize = getMatchedSupportedSize(parameters.getSupportedPictureSizes(), previewSize);
                 Log.d("拍照尺寸", pictureSize.width + "*" + pictureSize.height);
                 parameters.setPictureSize(pictureSize.width, pictureSize.height);
-
                 String pictureSizesString = parameters.get("picture-size-values");
                 Log.d("拍照全尺寸", pictureSizesString);
-
                 parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);//1连续对焦
-
                 mCamera.setParameters(parameters);
                 mCamera.setDisplayOrientation(result);
-
                 try {
                     mCamera.startPreview();
                     mCamera.cancelAutoFocus();// 2如果要实现连续的自动对焦，这一句必须加上
@@ -189,13 +184,45 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
                     mCamera = null;
                 }
             }
-
+            @Override
             public void surfaceDestroyed(SurfaceHolder holder) {
                 if (mCamera != null) {
                     mCamera.stopPreview();
                 }
             }
+        });
 
+        mPhotoButton.setEnabled(true);
+        mPhotoButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (mCamera != null) {
+                    mCamera.takePicture(null, null, mJpegCallBack);
+                }
+            }
+        });
+        mPhotoButton.setEnabled(true);
+        mCancleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().finish();
+            }
+        });
+        mChongpaiButton.setEnabled(false);
+        mChongpaiButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPhotoTaked = false;
+                resetView();
+                new File(mPhotoFilePath).delete();
+            }
+        });
+        mOKButton.setEnabled(false);
+        mOKButton.setOnClickListener(new View.OnClickListener() {
+            @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+            @Override
+            public void onClick(View v) {
+                uploadPicture.uploadPicture(mPhotoFilePath);
+            }
         });
     }
     @Override
@@ -216,68 +243,6 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
         View v = inflater.inflate(R.layout.fragment_camera_mrliu_two_good, container, false);
         initView(v);
         initEvent();
-
-
-
-        mPhotoButton = (Button) v.findViewById(R.id.button_takephoto);
-        mPhotoButton.setVisibility(View.VISIBLE);
-
-        mPhotoButton.setEnabled(true);
-        mPhotoButton.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                if (mCamera != null) {
-                    mCamera.takePicture(null, null, mJpegCallBack);
-                }
-            }
-        });
-
-        mCancleButton = (Button) v.findViewById(R.id.button_cancle);
-        mCancleButton.setVisibility(View.INVISIBLE);
-        mCancleButton.setEnabled(false);
-        mCancleButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                mPhotoCount--;
-                mPhotoTaked = false;
-//
-//                ContentValues values = new ContentValues();
-//                values.put("photo" + mPhotoCount + "Time", "");
-//                values.put("photo" + mPhotoCount + "Path", "");
-//                int taskId = CurrentUser.getSingleton().getSelectedTaskId();
-//                mDatabase.update("tasks", values, "taskId=?", new String[]{"" + taskId});
-//                values.clear();
-
-                resetView();
-
-                new File(mPhotoFilePath).delete();
-            }
-        });
-
-        mOKButton = (Button) v.findViewById(R.id.button_ok);
-        mOKButton.setVisibility(View.INVISIBLE);
-        mOKButton.setEnabled(false);
-        mOKButton.setOnClickListener(new View.OnClickListener() {
-            @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-            @Override
-            public void onClick(View v) {
-//                ContentValues values = new ContentValues();
-//                values.put("finished", 1);
-//                int taskId = CurrentUser.getSingleton().getSelectedTaskId();
-//                mDatabase.update("tasks", values, "taskId=?", new String[]{"" + taskId});
-//                values.clear();
-
-//                Intent intent = new Intent();
-//                intent.putExtra(EXTRA_OK_PHOTOFILENAME_STRING, mPhotoFilePath);
-//                getActivity().setResult(RESULT_OK, intent);
-//                getActivity().finish();
-                uploadPicture.uploadPicture(mPhotoFilePath);
-            }
-        });
-
-//        mCountImageView =(ImageView)v.findViewById(R.id.count_imageview);
-        mCountText = (TextView) v.findViewById(R.id.count_textView);
-
         return v;
     }
 
@@ -287,31 +252,27 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
         try {
             uploadPicture = (UploadPictureInterface) activity;
         } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString() + "must implement OnArticleSelectedListener");
+            throw new ClassCastException(activity.toString() + "must implement UploadPictureInterface");
         }
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-
         if (mCamera != null) {
             mCamera.release();
             mCamera = null;
         }
-
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {//为什么要在这里增加打开指定相机。相当于初始化。
             mCamera = Camera.open(0);
         } else {
             mCamera = Camera.open();
         }
-
     }
 
     @Override
@@ -370,17 +331,17 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
     }
 
     private void resetView() {
-
+        //如果沒有拍照
         if (!mPhotoTaked) {
-//            mCountImageView.setImageResource(R.drawable.white1);
             mCountText.setText("");
             mPhotoButton.setEnabled(true);
-            mPhotoButton.setVisibility(View.VISIBLE);
-            mCancleButton.setEnabled(false);
-            mCancleButton.setVisibility(View.INVISIBLE);
+            mPhotoButton.setVisibility(View.VISIBLE);//拍照按鈕可見
+            mCancleButton.setEnabled(true);
+            mCancleButton.setVisibility(View.VISIBLE);//退出按鈕可見
             mOKButton.setEnabled(false);
-            mOKButton.setVisibility(View.INVISIBLE);
-
+            mOKButton.setVisibility(View.INVISIBLE);//上傳圖片按鈕不可見
+            mChongpaiButton.setEnabled(false);
+            mChongpaiButton.setVisibility(View.INVISIBLE);//重拍按鈕不可見
             try {
                 mCamera.startPreview();
             } catch (Exception e) {
@@ -389,13 +350,15 @@ public class CameraFragment extends Fragment implements View.OnClickListener{
                 mCamera = null;
             }
         } else {
-            mCountText.setText("不满意可重新拍照");
-            mPhotoButton.setEnabled(false);
-            mPhotoButton.setVisibility(View.INVISIBLE);
-            mCancleButton.setEnabled(true);
-            mCancleButton.setVisibility(View.VISIBLE);
+//            mCountText.setText("不满意可重新拍照");
             mOKButton.setEnabled(true);
-            mOKButton.setVisibility(View.VISIBLE);
+            mOKButton.setVisibility(View.VISIBLE);//上傳圖片按鈕可見
+            mChongpaiButton.setEnabled(true);
+            mChongpaiButton.setVisibility(View.VISIBLE);//重拍按鈕可見
+            mPhotoButton.setEnabled(false);
+            mPhotoButton.setVisibility(View.INVISIBLE);//拍照不按鈕可見
+            mCancleButton.setEnabled(false);
+            mCancleButton.setVisibility(View.INVISIBLE);//退出不按鈕可見
         }
     }
 

@@ -10,6 +10,8 @@ import android.view.Window;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
+import android.view.animation.AnimationSet;
+import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 
 /**
@@ -20,19 +22,22 @@ import android.widget.TextView;
  *
  */
 public class AppStart extends Activity {
-
+    private AnimationSet mAnimationSet;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        mAnimationSet = initAnimationSet();
+
         final View view = View.inflate(this, R.layout.app_start, null);
         setContentView(view);
         TextView welcomeText = (TextView) findViewById(R.id.welcome_text);
         Typeface typeFace =Typeface.createFromAsset(getAssets(), "fonts/HandmadeTypewriter.ttf");
         welcomeText.setTypeface(typeFace);
+        welcomeText.startAnimation(mAnimationSet);
         // 渐变展示启动屏
-        AlphaAnimation aa = new AlphaAnimation(0.5f, 1.0f);
-        aa.setDuration(800);
+        AlphaAnimation aa = new AlphaAnimation(1.0f, 1.0f);
+        aa.setDuration(1500);
         view.startAnimation(aa);
         aa.setAnimationListener(new AnimationListener() {
             @Override
@@ -56,5 +61,19 @@ public class AppStart extends Activity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
+    }
+    private AnimationSet initAnimationSet() {
+        AnimationSet as = new AnimationSet(true);
+//        ScaleAnimation sa = new ScaleAnimation(1f, 1.7f, 1f, 1.7f,
+//                ScaleAnimation.RELATIVE_TO_SELF, 0.5f,
+//                ScaleAnimation.RELATIVE_TO_SELF, 0.5f);
+//        sa.setDuration(OFFSET * 3);
+//		sa.setRepeatCount(Animation.INFINITE);// 设置循环
+        AlphaAnimation aa = new AlphaAnimation(0.0f, 1.0f);
+        aa.setDuration(1000);
+//		aa.setRepeatCount(Animation.INFINITE);//设置循环
+//        as.addAnimation(sa);
+        as.addAnimation(aa);
+        return as;
     }
 }
